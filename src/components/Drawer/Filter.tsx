@@ -31,8 +31,9 @@ const Filter: React.FC<FilterPropsType> = ({setFilters, setPage}) => {
     }
 
     const handleClearFilter = () => {
-        setFilters({} as IProductFilters)
-        setIsOpen(prev => !prev);
+        setMin(0)
+        setMax(0)
+        setFilters({})
     }
 
     return (
