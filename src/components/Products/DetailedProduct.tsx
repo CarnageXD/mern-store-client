@@ -5,6 +5,7 @@ import {useAddCartProductMutation, useGetProductQuery,} from "../../redux/featur
 import {useAppDispatch, useAppSelector} from "../../hooks/redux-hooks";
 import {setErrorSnackbar, setInfoSnackbar, setSuccessSnackbar} from "../../redux/features/snackbarSlice";
 import {NavLink} from "react-router-dom";
+import { API_URL } from "../../config";
 
 const DetailedProduct: React.FC<IDetailedProduct> = ({id}) => {
     const dispatch = useAppDispatch();
@@ -39,7 +40,7 @@ const DetailedProduct: React.FC<IDetailedProduct> = ({id}) => {
                     component={"img"}
                     sx={{height: {xs: "360px", md: "500px"}, mr: 2}}
                     src={
-                        product.image ? process.env.REACT_APP_API_URL + product.image : ""
+                        product.image ? API_URL + product.image : ""
                     }
                 />
             </Box>
