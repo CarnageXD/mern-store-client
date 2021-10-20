@@ -2,6 +2,7 @@ import React from 'react';
 import {Card, CardActionArea, CardContent, CardMedia, Grid, Typography} from "@mui/material";
 import {IProduct} from "../../types/Products/products";
 import {useHistory} from "react-router-dom";
+import { API_URL } from '../../config';
 
 const ProductItem: React.FC<IProduct> =
     ({image, price, category, _id, title}) => {
@@ -12,7 +13,7 @@ const ProductItem: React.FC<IProduct> =
                     <CardActionArea sx={{display: "block !important"}}>
                         <CardMedia
                             component={"img"}
-                            image={process.env.REACT_APP_API_URL + image}
+                            image={API_URL + image}
                         />
                         <CardContent>
                             <Typography variant={"h5"}>{title}</Typography>
