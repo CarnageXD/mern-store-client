@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/mern-store-client/static/css/main.2ccfb2e5.chunk.css",
-    "main.js": "/mern-store-client/static/js/main.72d5f91c.chunk.js",
-    "main.js.map": "/mern-store-client/static/js/main.72d5f91c.chunk.js.map",
+    "main.js": "/mern-store-client/static/js/main.bad5a094.chunk.js",
+    "main.js.map": "/mern-store-client/static/js/main.bad5a094.chunk.js.map",
     "runtime-main.js": "/mern-store-client/static/js/runtime-main.55f192df.js",
     "runtime-main.js.map": "/mern-store-client/static/js/runtime-main.55f192df.js.map",
-    "static/js/2.19c66abf.chunk.js": "/mern-store-client/static/js/2.19c66abf.chunk.js",
-    "static/js/2.19c66abf.chunk.js.map": "/mern-store-client/static/js/2.19c66abf.chunk.js.map",
+    "static/js/2.22593d6b.chunk.js": "/mern-store-client/static/js/2.22593d6b.chunk.js",
+    "static/js/2.22593d6b.chunk.js.map": "/mern-store-client/static/js/2.22593d6b.chunk.js.map",
     "index.html": "/mern-store-client/index.html",
     "static/css/main.2ccfb2e5.chunk.css.map": "/mern-store-client/static/css/main.2ccfb2e5.chunk.css.map",
-    "static/js/2.19c66abf.chunk.js.LICENSE.txt": "/mern-store-client/static/js/2.19c66abf.chunk.js.LICENSE.txt",
+    "static/js/2.22593d6b.chunk.js.LICENSE.txt": "/mern-store-client/static/js/2.22593d6b.chunk.js.LICENSE.txt",
     "static/media/emptyCart.968ec22f.png": "/mern-store-client/static/media/emptyCart.968ec22f.png"
   },
   "entrypoints": [
     "static/js/runtime-main.55f192df.js",
-    "static/js/2.19c66abf.chunk.js",
+    "static/js/2.22593d6b.chunk.js",
     "static/css/main.2ccfb2e5.chunk.css",
-    "static/js/main.72d5f91c.chunk.js"
+    "static/js/main.bad5a094.chunk.js"
   ]
 }
