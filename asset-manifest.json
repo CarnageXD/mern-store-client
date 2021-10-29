@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/mern-store-client/static/css/main.2ccfb2e5.chunk.css",
-    "main.js": "/mern-store-client/static/js/main.72d5f91c.chunk.js",
-    "main.js.map": "/mern-store-client/static/js/main.72d5f91c.chunk.js.map",
-    "runtime-main.js": "/mern-store-client/static/js/runtime-main.55f192df.js",
-    "runtime-main.js.map": "/mern-store-client/static/js/runtime-main.55f192df.js.map",
-    "static/js/2.19c66abf.chunk.js": "/mern-store-client/static/js/2.19c66abf.chunk.js",
-    "static/js/2.19c66abf.chunk.js.map": "/mern-store-client/static/js/2.19c66abf.chunk.js.map",
-    "index.html": "/mern-store-client/index.html",
-    "static/css/main.2ccfb2e5.chunk.css.map": "/mern-store-client/static/css/main.2ccfb2e5.chunk.css.map",
-    "static/js/2.19c66abf.chunk.js.LICENSE.txt": "/mern-store-client/static/js/2.19c66abf.chunk.js.LICENSE.txt",
-    "static/media/emptyCart.968ec22f.png": "/mern-store-client/static/media/emptyCart.968ec22f.png"
+    "main.css": "/mern-store/static/css/main.2ccfb2e5.chunk.css",
+    "main.js": "/mern-store/static/js/main.72d5f91c.chunk.js",
+    "main.js.map": "/mern-store/static/js/main.72d5f91c.chunk.js.map",
+    "runtime-main.js": "/mern-store/static/js/runtime-main.88c89693.js",
+    "runtime-main.js.map": "/mern-store/static/js/runtime-main.88c89693.js.map",
+    "static/js/2.19c66abf.chunk.js": "/mern-store/static/js/2.19c66abf.chunk.js",
+    "static/js/2.19c66abf.chunk.js.map": "/mern-store/static/js/2.19c66abf.chunk.js.map",
+    "index.html": "/mern-store/index.html",
+    "static/css/main.2ccfb2e5.chunk.css.map": "/mern-store/static/css/main.2ccfb2e5.chunk.css.map",
+    "static/js/2.19c66abf.chunk.js.LICENSE.txt": "/mern-store/static/js/2.19c66abf.chunk.js.LICENSE.txt",
+    "static/media/emptyCart.968ec22f.png": "/mern-store/static/media/emptyCart.968ec22f.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.55f192df.js",
+    "static/js/runtime-main.88c89693.js",
     "static/js/2.19c66abf.chunk.js",
     "static/css/main.2ccfb2e5.chunk.css",
     "static/js/main.72d5f91c.chunk.js"
