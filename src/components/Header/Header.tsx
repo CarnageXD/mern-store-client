@@ -55,7 +55,12 @@ export default function Header() {
                         <>
                             {isAdmin === 'ADMIN' ?
                                 <NavLink to="/admin">
-                                    <IconButton color="inherit">
+                                    <IconButton sx={{
+                                        display: {
+                                            xs: "none !important",
+                                            md: "flex !important",
+                                        },
+                                    }} color="inherit">
                                         <AdminPanelSettingsOutlined/>
                                     </IconButton>
                                 </NavLink>
