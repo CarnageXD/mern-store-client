@@ -29,7 +29,7 @@ const DetailedProduct: React.FC<IDetailedProduct> = ({id}) => {
         } else dispatch(setInfoSnackbar('Please, choose one of the sizes'));
     };
 
-    if (isLoading) return <CircularProgress color="primary"/>;
+    if (isLoading) return <Box sx={{display: "flex", justifyContent: "center"}}><CircularProgress color="primary"/></Box>
     return (
         <Box
             display={"flex"}
@@ -58,7 +58,7 @@ const DetailedProduct: React.FC<IDetailedProduct> = ({id}) => {
                     <Typography sx={{mb: 2}} variant={"h6"} color={"primary.light"}>
                         {product.category}
                     </Typography>
-                    <Typography>{product.description}</Typography>
+                    <Typography sx={{lineHeight: 2}}>{product.description}</Typography>
                     <TextField
                         sx={{width: 100, mt: 2, alignSelf: "flex-end"}}
                         label="Size"
